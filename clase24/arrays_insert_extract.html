@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      var cars = ["BMW", "MERCEDES", "HONDA", "DATSUN"];
+      //remueve el primer elemento del arreglo
+          // cars.shift();
+
+      //añade elementos al inicio del arreglo
+          // cars.unshift("hyundai","FORD");
+
+      //añade o elimina elementos en cualquier parte del arreglo
+      // NAME(ID,cantidad que se quiere eliminar,elementos que se quiere añadir)
+      //si se quiere eliminar en lugar de cero se pone un numero y elimina esa cantidad de elementos luego del id indicado
+          // cars.splice(2,0,"DOG","CAT");
+
+      // alert(cars);
+
+      //copia elementos de un arreglo a otro, mediante el id
+      //el numero despues de la coma debe ser uno mas de la cantidad del arreglo
+      var fancyCars = cars.slice(2,4);
+      alert(fancyCars);
+
+    </script>
+  </body>
+</html>
